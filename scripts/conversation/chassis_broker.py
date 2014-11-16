@@ -40,9 +40,8 @@ def handleFirstScreen(core, actor, npc, selection):
 			return
 			
 		convSvc.sendStopConversation(actor, npc, 'conversation/chassis_npc', 's_aa81853')
-		core.lootService.handleJunkDealerSellWindow(actor, npc, sellItemListRef)
-		return
-		#JunkDealerSellerWIndow to be changed
+			return
+		#Sell Window to be added
 				
 	
 	if selection == 2:
